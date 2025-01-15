@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { Typography, Box } from "@mui/material";
-
+//checks
 const CoinDetails = () => {
     const { id } = useParams(); // Extract the coin ID from the URL
     const { userData } = useSelector((state) => state.coinStore);
